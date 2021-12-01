@@ -1,5 +1,5 @@
 # Academic Projects
-Here you have some (the ones I was able to find going through my stuff) of the projects/algorithms that I developed during my CS degree. In this repository we have a bunch projects the were built with a number o languages including
+Here you have some (the ones I was able to find going through my stuff) of the projects/algorithms that I developed during my CS degree. In this repository we have a bunch of projects that were built with a number of languages, including
 C, Java, MATLAB, Python. Inside some of those projects you may find a .pdf file that is, usually, a report containing results and, most of those reports were build using LaTeX.
 
 # Disciplines
