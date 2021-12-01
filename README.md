@@ -5,33 +5,45 @@ C, Java, MATLAB, Python. Inside some of those projects you may find a .pdf file 
 # Disciplines
 
 ## Programming Laboratory
-* [glcm-extractor](https://github.com/Igor03/academic-projects/tree/main/glcm-extractor) - C
+Repository name | Language
+--- | ---
+[glcm-extractor](https://github.com/Igor03/academic-projects/tree/main/glcm-extractor) | C
+
 
 ## Neutal Networks
-* [adaline](https://github.com/Igor03/academic-projects/tree/main/adaline) - MATLAB
-* [perceptron-simples]() - MATLAB
-* [perceptron-1-camada]() - MATLAB
-* [rna-implementacoes]() - MATLAB
+Repository name | Language
+--- | ---
+[adaline](https://github.com/Igor03/academic-projects/tree/main/adaline) | MATLAB
+[perceptron-simples](https://github.com/Igor03/academic-projects/tree/main/perceptron-simples) | MATLAB
+[perceptron-1-camada](https://github.com/Igor03/academic-projects/tree/main/perceptron-1-camada) | MATLAB
+[rna-implementacoes](https://github.com/Igor03/academic-projects/tree/main/rna-implementacoes-12317) | MATLAB
 
 ## Artificial Inteligence
-* [problema-das-sacolas]() - Java
-* [buscas-locais]() - Java
-* [buscas-cegas-pt1-ia]() - Java
-* [buscas-cegas-pt2-ia]() - Java
-* [buscas-heuristicas-ia]() - Java
+Repository name | Language
+--- | ---
+[problema-das-sacolas](https://github.com/Igor03/academic-projects/tree/main/problema-das-sacolas) | Java
+[buscas-locais](https://github.com/Igor03/academic-projects/tree/main/buscas-locais) | Java
+[buscas-cegas-pt1-ia](https://github.com/Igor03/academic-projects/tree/main/buscas-cegas-pt1-ia-master) | Java
+[buscas-cegas-pt2-ia](https://github.com/Igor03/academic-projects/tree/main/buscas-cegas-pt2-ia) | Java
+[buscas-heuristicas-ia](https://github.com/Igor03/academic-projects/tree/main/buscas-heuristicas-ia) | Java
 
 ## Data Structures
-* [ed-jogodavelha]() - Java
+Repository name | Language
+--- | ---
+[ed-jogodavelha](https://github.com/Igor03/academic-projects/tree/main/ed-jogadavelha) | Java
 
 ## Digital Image Processing
-* [crescimento-regiao-pdi]() - Python
+Repository name | Language
+--- | ---
+[crescimento-regiao-pdi](https://github.com/Igor03/academic-projects/tree/main/crescimento-regiao-pdi) | Python
 
 ## Introduction to Electricity and Electronics
-* [projeto-eletroeletronica]() - Java
+Repository name | Language
+--- | ---
+[projeto-eletroeletronica](https://github.com/Igor03/academic-projects/tree/main/projeto-eletroeletronica) | Java
 
 # Important Informations
 
-Some of those projects are little bit messy, after all, the projects that compose this codebase were built a long time ago, when I was just learning code (not that I an expert today hahaha). Another thing, all of the reports are written in portuguese (ot-BR). If you are having a hard time trying to understand or run any given project, just send me an email and I will try to help you out the best way I can.
+Some of those projects may be a little bit messy, after all, the projects that compose this codebase were built a long time ago, when I fisrt started coding (not that I'm an expert today hahaha). Another thing, all of the reports are written in portuguese (pt-BR). So, if you are having a hard time trying to understand or run any given project, just send me an email and I will try to help you out the best way I can.
 
-### Email
-* [j.igor@outlook.com](mailto:j.igor@outlook.com)
+### Email : [j.igor@outlook.com](mailto:j.igor@outlook.com)
