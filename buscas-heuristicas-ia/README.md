@@ -1,0 +1,2 @@
+# buscas-heuristicas-ia
+Este repositório contempla a implementação de duas buscas heurísticas, a saber: Busca por melhor escolha e Busca A estrela ou simplesmente A*. Estas buscas foram destinadas à solução do clássico problema do Mapa da Romênia apresentado no livro "Artificial Intelligence: A Modern Approach". A implementação dos métodos de busca bem como a modelagem do problema foram feitas em Java.

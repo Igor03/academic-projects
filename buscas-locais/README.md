@@ -1,0 +1,2 @@
+# buscas-locais
+Este repositório possui implementações de algumas buscas locais e técnicas de otimização, a saber: Têmpera Simulada (Simulated Annealing) e Subida de Encosta (Hill Climbing). Estes métodos foram aplicados ao famoso problema das N-Rainhas presente no livro "Artificial Intelligence: A Modern Approach". Tanto a modelagem do problema quanto a implementação dos métodos foram realizados na linguagem Java.

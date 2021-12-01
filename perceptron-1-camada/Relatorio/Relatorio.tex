@@ -1,0 +1,141 @@
+\documentclass[12pt]{article}
+\usepackage[latin1]{inputenc}
+\usepackage[brazil]{babel}
+\usepackage{amsmath}
+\usepackage{amsfonts}
+\usepackage{amssymb}
+\usepackage{url}
+\usepackage[top=3cm, bottom=3cm, left=3cm, right=3cm]{geometry}
+\usepackage{graphics, graphicx}
+\usepackage{setspace}
+\usepackage{pdflscape}
+\usepackage{multicol}
+\usepackage{algpseudocode, algorithm}
+\usepackage{natded}
+\usepackage{indentfirst}
+\pagestyle{myheadings}
+%\usepackage[]{algorithm2e}
+%\usepackage{algorithm}
+\usepackage{algpseudocode}
+\usepackage{verbatim}
+%\usepackage[demo]{graphicx}
+\usepackage{subfig}
+
+
+	\thispagestyle{empty}
+    \begin{document}
+        
+	\begin{center}
+		\textbf{Instituto Federal de Educação, Ciência e Tecnologia do Ceará}
+		
+		\textbf{Bacharelado em Ciência da Computação 2017.2}
+		
+		\textbf{Disciplina:} Redes Neurais Artificiais
+		
+		\textbf{Professor:} Ajalmar Rocha
+		
+		\textbf{Aluno:} José Igor de Carvalho	
+			
+	\end{center}
+
+    \hline
+
+\begin{center}
+    \huge{Relatório 3:}
+    
+    \huge{Perceptron de uma camada}
+    
+\end{center}
+     \hline
+    \section{Introdução}
+    \noindent
+    Como sabemos, o Perceptron Simples é um classificador linear binário, isto é, este modelo é capaz de classificar dados linearmente separáveis e em apenas duas classes. Porém, muitas vezes é necessário classificar um conjuntos de dados os quais possuem mais de duas classes a serem classificadas. O Perceptron de 1 uma camada resolve este tipo de problema combinando $n$ neurônios do Perceptron simples a fim de classificar um problema com $n$ classes. Assim, basta que tornemos cada neurônio desta nova camada especialistas classificar uma determinada classe. Em geral, é usada a notação $1-out-of-C$ para representar estas classes no conjunto de dados.
+    
+    Estre documento visa relatar a eficiência do método apresentado acima para dois conjuntos de dados distintos: um artificial e conjunto de dados da Iris. Como medida de eficiência, foram usados acurácia e desvio padrão.
+    
+    \section{Conjuntos de dados}
+    	\noindent
+    	Nesta seção faremos breves esclarecimentos sobre os conjuntos de dados que foram utilizadas para dos testes.
+    	
+    \subsection{Conjunto de dados Artificial}
+    	\noindent
+    	Uma base de dados artificial linearmente separável foi gerada e submetida ao algoritmo em questão. Esta base possui 600 amostras pertencentes a 3 classes distintas. Cada classe possui 200 amostras. A Figura 1 mostra como estão dispostos estes dados no plano.
+    
+     \begin{figure}[!htb]
+    	\centering
+    	\includegraphics[width=.70\textwidth]{img1.jpg}
+    	\caption{Disposição dos dados artificiais}
+    	%\label{fig:exampleFig1}
+    \end{figure}
+    
+    \subsection{Conjunto de dados da Iris}
+    	\noindent
+        A base de dados da Iris é, provavelmente, o conjunto de dados mais conhecido quando falamos em reconhecimento de padrões. Este conjunto de dados se refere a classificação de 3 especies de flores para plantas do gênero Iris: Iris-setosa, Iris-versicolor e Iris-virginica. Abaixo temos uma amostra das entradas deste conjunto.	
+        
+        \begin{center}
+        	\begin{tabular}{|c|c|c|c|c|c|}
+        		\hline
+        		$x_1$&$x_2$&$x_3$&$x_4$&Classe \\ \hline 
+        		$5.1$&$3.5$&$1.4$&$0.2$&Iris-setosa \\
+        		$5.9$&$3.0$&$4.2$&$1.5$&Iris-versicolor \\
+        		$7.7$&$2.6$&$6.9$&$2.3$&Iris-virginica \\
+        		\hline
+        	\end{tabular}
+        \end{center}
+    
+    \section{Testes e resultados}
+    \noindent
+    Nesta seção serão apresentados os resultados de eficiência obtidos após testes em ambos os conjuntos de dados apresentados na seção anterior.
+    
+    \subsection{Conjunto de dados Artificial}
+    \noindent
+    Nos testes realizados no conjunto de dados gerado artificialmente foram feitas 20 realizações do algoritmo com 500 épocas em cada uma delas. As funções de ativações utilizadas foram a Degrau, Sigmoid Logística e Sigmoid Tangente Hiperbólica. Além disso, os resultados foram registrados tanto numericamente quanto graficamente. Estes resultados são mostrados abaixo.
+    
+    
+    
+    	\begin{figure}%
+    		\centering
+    		\subfloat[Retas de classificação]{{\includegraphics[width=7.2cm]{img2.jpg} }}%
+    		\qquad
+    		\subfloat[Mapa de cores]{{\includegraphics[width=7.2cm]{img3.jpg} }}%
+    		\caption{Resultados mostrados graficamente}%
+    		\label{fig:example}%
+    	\end{figure}
+    
+    \begin{center}
+    	\begin{tabular}{|c|c|c|}
+    		\hline
+    		$\textbf{Função de Ativação}$&\textbf{Acurácia}&\textbf{Desvio padrão} \\ \hline 
+    		\textrm{Degrau}&$0.99800$&$0.00520$\\
+    		\textrm{Logística}&$0.99960$&$0.00047$ \\
+    		\textrm{Tangente Hiperbólica}&$0.99500$&$0.00223$ \\
+    		\hline
+    	\end{tabular}
+    \end{center}
+ 
+    \subsection{Conjunto de dados da Iris}
+    \noindent
+    Já para o conjunto de dados da iris, foram feitas 20 realizações com 1000 épocas para cada realização. Os testes foram realizados com as mesmas funções de ativação da seção anterior. Os resultados são mostrados abaixo.
+    
+    \begin{center}
+    	\begin{tabular}{|c|c|c|}
+    		\hline
+    		$\textbf{Função de Ativação}$&\textbf{Acurácia}&\textbf{Desvio padrão} \\ \hline 
+    		\textrm{Degrau}&$0.67166$&$0.05950$\\
+    		\textrm{Logística}&$0.90000$&$0.04848$ \\
+    		\textrm{Tangente Hiperbólica}&$0.91166$&$0.07356$ \\
+    		\hline
+    	\end{tabular}
+    \end{center}
+
+	\section{Conclusão}
+	
+	\noindent
+	O Perceptron de uma camada é um algoritmo bastante interessante e eficaz quando necessitamos classificar conjuntos de dados linearmente separáveis com $n$ classes. Isto é provado pelos resultados obtidos na seção anterior. É claro que, na maioria das vezes, os problemas do mundo real são bem mais complexos do que os apresentados neste documento mas a compreensão deste algoritmo será de grande utilidade quando se fizer necessária a implementação de algoritmos de classificação mais elaborados.
+    
+    \section{Anexo}
+    
+    Códigos disponíveis em:
+    
+    
+\end{document}
