@@ -5,7 +5,7 @@ C, Java, MATLAB, Python. Inside some of those projects you may find a .pdf file 
 # Disciplines
 
 ## Programming Laboratory
-* [glcm-extractor]() - C
+* [glcm-extractor](https://github.com/Igor03/academic-projects/tree/main/glcm-extractor) - C
 
 ## Neutal Networks
 * [adaline]() - MATLAB
