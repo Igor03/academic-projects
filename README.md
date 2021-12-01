@@ -8,7 +8,7 @@ C, Java, MATLAB, Python. Inside some of those projects you may find a .pdf file 
 * [glcm-extractor](https://github.com/Igor03/academic-projects/tree/main/glcm-extractor) - C
 
 ## Neutal Networks
-* [adaline]() - MATLAB
+* [adaline](https://github.com/Igor03/academic-projects/tree/main/adaline) - MATLAB
 * [perceptron-simples]() - MATLAB
 * [perceptron-1-camada]() - MATLAB
 * [rna-implementacoes]() - MATLAB
