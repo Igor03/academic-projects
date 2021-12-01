@@ -28,3 +28,10 @@ C, Java, MATLAB, Python. Inside some of those projects you may find a .pdf file 
 
 ## Introduction to Electricity and Electronics
 * [projeto-eletroeletronica]() - Java
+
+# Important Informations
+
+Some of those projects are little bit messy, after all, the projects that compose this codebase were built a long time ago, when I was just learning code (not that I an expert today hahaha). Another thing, all of the reports are written in portuguese (ot-BR). If you are having a hard time trying to understand or run any given project, just send me and email and I will try to help you out the best way I can.
+
+### Email
+* [j.igor@outlook.com](j.igor@outlook.com)
